@@ -2,7 +2,7 @@ body{
     background-image: url(background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100% 400px;
+    background-size: 100% 25%;
     color:rgb(119, 135, 152);
 }
 
@@ -16,20 +16,20 @@ button{
     border-radius: 2rem;
     text-align: center;
     box-shadow: 0 2px 2px grey;  
+    justify-content: center;
 
 }
 
 #photo{
     border-radius: 100%;
+    width: 40%;
     max-width: 150px;
     position: relative;
-    top:-8rem;
+    top:-5rem;
     box-shadow: 0 3px 3px grey;
-    margin-bottom: -50px;
 }
 
 #contactButtons{
-    word-spacing: 800px;
     position: relative;
     top:-1rem;
     display: flex;
@@ -39,8 +39,7 @@ button{
 
 #connect{
     border-radius: 20px;
-    min-width: 100px;
-    min-height: 40px;
+    width: 4rem;
     color:darkorchid;
     border:0;
     
@@ -48,8 +47,7 @@ button{
 
 #message{
     border-radius: 20px;
-    min-width: 100px;
-    min-height: 40px;
+    width: 4rem;
     color:rgb(129, 60, 144);
     border: 0;
     
