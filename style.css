@@ -1,0 +1,87 @@
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    color:rgb(119, 135, 152);
+}
+
+button{
+    cursor: pointer;
+}
+.idCard{
+    margin: 100px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 2px 2px grey;  
+
+}
+
+#photo{
+    border-radius: 100%;
+    max-width: 150px;
+    position: relative;
+    top:-100px;
+    box-shadow: 0 3px 3px grey;
+    margin-bottom: -50px;
+}
+
+#contactButtons{
+    word-spacing: 800px;
+    position: relative;
+    top:-100px;
+}
+
+#connect{
+    border-radius: 20px;
+    min-width: 100px;
+    min-height: 40px;
+    color:darkorchid;
+    border:0;
+    
+}
+
+#message{
+    border-radius: 20px;
+    min-width: 100px;
+    min-height: 40px;
+    color:rgb(129, 60, 144);
+    border: 0;
+    
+}
+
+#personalInfo{
+    margin-bottom: 20px;
+}
+
+#education{
+    margin-bottom:20px;
+}
+
+#interactions{
+    margin: auto;
+    
+}
+
+#projectsButton{
+    border-radius: 20px;
+    min-width: 100px;
+    min-height: 40px;
+    color:white;
+    background-image:linear-gradient(to right, rgb(103, 64, 146), rgb(218, 172, 145));
+    box-shadow: 0 2px 2px grey;
+    margin: 15px;
+}
+
+
+#projects{
+    color:black;
+    size: 2px;
+    padding:5px;
+}
+
+img{
+    background-color:white;
+}
