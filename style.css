@@ -10,10 +10,10 @@ button{
     cursor: pointer;
 }
 .idCard{
-    margin: 100px;
-    padding: 50px;
+    margin: 6rem;
+    padding: 4rem;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 2rem;
     text-align: center;
     box-shadow: 0 2px 2px grey;  
 
@@ -23,7 +23,7 @@ button{
     border-radius: 100%;
     max-width: 150px;
     position: relative;
-    top:-100px;
+    top:-8rem;
     box-shadow: 0 3px 3px grey;
     margin-bottom: -50px;
 }
@@ -31,7 +31,10 @@ button{
 #contactButtons{
     word-spacing: 800px;
     position: relative;
-    top:-100px;
+    top:-1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #connect{
