@@ -14,7 +14,7 @@ body{
     background-color: #3F2E3E;
     color:#D8A7B1;
     padding: 1rem; 
-    height: 35vh;
+    height: 30vh;
     text-align: center;
 
 
@@ -25,6 +25,7 @@ body{
     background-color:#D8A7B1;
     border-radius: 100%;
     border: 3px solid #6D5A65;
+    max-width: 20vh;
 }
 .navbar .personalInfo .name{
     font-size:xx-large;
@@ -32,6 +33,9 @@ body{
 
 .navbar .personalInfo .position, .location{
     font-size:medium;
+}
+.navbar .personalInfo .name, .position, .location{
+    margin: 0.3rem;
 }
 
 
