@@ -27,10 +27,10 @@ body{
     border: none;
     background:none;
     color:#D8A7B1;
-    font-size: large;
+    /*mobile design bug fix*/
+    font-size: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    font-weight: bold;
     
 }
 .navbar .btnList button:hover{
