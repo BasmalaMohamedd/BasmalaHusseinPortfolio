@@ -14,13 +14,13 @@ body{
     background-color: #3F2E3E;
     color:#D8A7B1;
     padding: 1rem; 
-    height: 30vh;
     text-align: center;
-
 
 }
 
 .navbar .personalInfo img{
+    
+
     width: 15%;
     background-color:#D8A7B1;
     border-radius: 100%;
