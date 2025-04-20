@@ -15,6 +15,7 @@ body{
     color:#D8A7B1;
     padding: 1rem; 
     text-align: center;
+    width: 100%;
 
 }
 
@@ -67,4 +68,44 @@ body{
 main{
     margin: 5rem;
     color: #3F2E3E;
+    text-align: center;
+}
+
+main h1{
+    text-decoration: underline;
+}
+main h3{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.skills .skillList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills .skillList p{
+    width: 4rem;
+    height: 3rem;
+    padding: 1.25rem;
+    border-radius: 100%;
+    border: #6D5A65 2px solid;
+    background-color: #D8A7B1;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    font-size: small;
+}
+.skills .skillList p:hover{
+    box-shadow: 1px 1px 2px #3F2E3E;
+
+}
+
+.myProjects img{
+    width: 70%;
+    border-radius: 2rem;
+}
+.myProjects img:hover{
+    box-shadow: 1px 1px 2px #3F2E3E;
+
 }
