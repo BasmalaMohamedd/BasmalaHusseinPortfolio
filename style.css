@@ -98,11 +98,11 @@ main h3{
     text-align: center;
     vertical-align: middle;
     font-size: small;
-}
-.skills .skillList p:hover{
     box-shadow: 1px 1px 2px #3F2E3E;
+    /* unneeded hover */
 
 }
+
 
 .myProjects img{
     width: 70%;
