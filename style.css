@@ -6,6 +6,8 @@
 body{
     background-color: #F5F5F7;
     margin: 0%;
+    
+
 }
 .navbar{
     display: flex;
@@ -67,7 +69,7 @@ body{
 
 main{
     /* better visibility for mobile */
-    margin: 2rem;
+    margin: 1rem;
     color: #3F2E3E;
     text-align: center;
 }
@@ -103,8 +105,7 @@ main h3{
 }
 
 .myProjects img{
-    /* better visibility for mobile */
-    width: 90%;
+    width: 70%;
     border-radius: 2rem;
 }
 .myProjects img:hover{
