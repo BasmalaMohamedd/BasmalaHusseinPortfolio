@@ -102,7 +102,8 @@ main h3{
 }
 
 .myProjects img{
-    width: 70%;
+    /* better visibility for mobile */
+    width: 90%;
     border-radius: 2rem;
 }
 .myProjects img:hover{
