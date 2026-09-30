@@ -5,4 +5,9 @@
   --color-portfolio-obsidian: #131017;
   --color-portfolio-plum: #502D55;
   --color-portfolio-teal: #14B8A6;
+  --color-portfolio-teal-muted: #15a393;
+}
+
+*{
+  font-family: ui-rounded, "Segoe UI Rounded", "Segoe UI", "Varela Round", sans-serif;
 }
