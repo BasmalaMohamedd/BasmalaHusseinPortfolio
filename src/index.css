@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --color-portfolio-alabaster: #F8F4E9;
+  --color-portfolio-obsidian: #131017;
+  --color-portfolio-plum: #502D55;
+  --color-portfolio-teal: #14B8A6;
+}
