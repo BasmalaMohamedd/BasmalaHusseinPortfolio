@@ -9,7 +9,7 @@ const navList = [
 
 const Navbar = () => {
   return (
-    <header className='bg-portfolio-obsidian text-portfolio-alabaster'>
+    <header className='bg-portfolio-obsidian text-portfolio-alabaster border-b border-portfolio-plum'>
         <nav className='flex justify-around items-center'>
             <div>
                 <ul className='flex gap-4 p-4 justify-center'>
