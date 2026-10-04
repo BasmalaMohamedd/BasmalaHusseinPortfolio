@@ -9,7 +9,7 @@ const Profile = () => {
         <p>Front-End Developer|fresh software engineer graduate</p>
 
       </div>
-      <div className='bg-portfolio-plum flex-1'>
+      <div className='bg-gradient-to-l from-portfolio-plum to-portfolio-obsidian flex-1'>
         <Links />
         
       </div>
