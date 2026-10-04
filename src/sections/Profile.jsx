@@ -1,14 +1,16 @@
 import React from 'react'
+import Links from '../components/about/Links'
 
 const Profile = () => {
   return (
-    <div className='flex flex-col justify-center m-0 sm:flex-row text-white text-2xl w-full'>
-      <div className='bg-portfolio-obsidian'>
-        <p>name and title and small about</p>
+    <div className='flex flex-col justify-center m-0 sm:flex-row text-white w-full'>
+      <div className='bg-portfolio-obsidian flex-1'>
+        <p>Basmala Mohamed Hussein</p>
+        <p>Front-End Developer|fresh software engineer graduate</p>
 
       </div>
-      <div className='bg-portfolio-plum'>
-        <p>important links</p>
+      <div className='bg-portfolio-plum flex-1'>
+        <Links />
         
       </div>
     </div>
