@@ -25,7 +25,7 @@ const Profile = () => {
 
   </div>
 
-  <div className="flex-1 ml-4 flex-col gap-4 z-10 w-full lg:w-auto">
+  <div className="flex-1 flex-col gap-4 z-10 w-full lg:w-auto">
     
     <div className="bg-gradient-to-r from-portfolio-plum/20 to-transparent p-4 rounded-xl border border-portfolio-plum/30 backdrop-blur-sm">
       <Links />
