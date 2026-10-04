@@ -6,23 +6,23 @@ import LinkItem from './LinkItem';
 
 const Links = () => {
   return (
-    <div className='flex flex-col justify-center items-center p-8'>
-        <ul>
-            <li>
+    <div className=''>
+        <ul className='flex flex-col justify-center items-center p-8 gap-4'>
+            <li className='flex-1'>
                 <LinkItem
                     icon={<FaGithub />}
-                    label="GitHub"
+                    label=" GitHub "
                     href="https://github.com/BasmalaMohamedd"
                 />
             </li>
-            <li>
+            <li className='flex-1'>
                 <LinkItem
                     icon={<FaLinkedin />}
                     label="LinkedIn"
                     href="https://www.linkedin.com/in/basmala-hussein-95120421a"
                 />
             </li>
-            <li>
+            <li className='flex-1'>
                 <LinkItem
                     icon={<FaDownload />}
                     label="Resume"

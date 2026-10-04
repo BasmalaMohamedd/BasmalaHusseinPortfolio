@@ -3,17 +3,36 @@ import Links from '../components/about/Links'
 
 const Profile = () => {
   return (
-    <div className='flex flex-col justify-center m-0 sm:flex-row text-white w-full'>
-      <div className='bg-portfolio-obsidian flex-1'>
-        <p>Basmala Mohamed Hussein</p>
-        <p>Front-End Developer|fresh software engineer graduate</p>
+    <div className="w-full bg-portfolio-obsidian border border-portfolio-plum/30 p-8 sm:p-12 shadow-2xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 text-white relative overflow-hidden">
+  
+  <div className=" bg-portfolio-plum/20 rounded-full blur-3xl " />
 
-      </div>
-      <div className='bg-gradient-to-l from-portfolio-plum to-portfolio-obsidian flex-1'>
-        <Links />
-        
-      </div>
+  
+  <div className="flex-2 flex-col gap-3 z-10">
+    
+    
+    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-portfolio-plum/20 border border-portfolio-plum/40 text-xs font-medium text-portfolio-plum-light w-fit">
+      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+      Available for Opportunities
     </div>
+    <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+      Basmala Mohamed Hussein
+    </h1>
+    
+    <p className="text-lg text-gray-300 font-medium">
+      Front-End Developer <span className="text-portfolio-plum">|</span> Fresh Software Engineering Graduate
+    </p>
+
+  </div>
+
+  <div className="flex-1 ml-4 flex-col gap-4 z-10 w-full lg:w-auto">
+    
+    <div className="bg-gradient-to-r from-portfolio-plum/20 to-transparent p-4 rounded-xl border border-portfolio-plum/30 backdrop-blur-sm">
+      <Links />
+    </div>
+  </div>
+
+</div>
   )
 }
 
