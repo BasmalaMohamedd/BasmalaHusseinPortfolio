@@ -7,7 +7,7 @@ import LinkItem from './LinkItem';
 const Links = () => {
   return (
     <div className=''>
-        <ul className='flex flex-col justify-center items-center p-8 gap-4'>
+        <ul className='flex flex-col items-stretch justify-center items-center p-8 gap-4'>
             <li className='flex-1'>
                 <LinkItem
                     icon={<FaGithub />}
