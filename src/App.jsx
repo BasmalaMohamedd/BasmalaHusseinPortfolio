@@ -1,20 +1,37 @@
-import { useState } from 'react'
+import { useRef} from 'react'
 
-import './App.css'
 import DevProgress from './components/DevProgress'
 import Navbar from './components/ui/Navbar'
-import Profile from './sections/Profile'
+import HeroSection from './sections/HeroSection'
+import AboutSection from './sections/AboutSection'
+import ProjectsSection from './sections/ProjectsSection'
+import SkillsSection from './sections/SkillsSection'
+import ContactSection from './sections/ContactSection'
 
 function App() {
-  
+  const aboutSectionRef = useRef();
+  const projectsSectionRef = useRef();
+  const skillsSectionRef = useRef();
+  const contactSectionRef = useRef();
+
+  function scrollToSection(sectionRef){
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
 
   return (
     <>
-      <Navbar />
+      <Navbar 
+      scrollToAbout={() => scrollToSection(aboutSectionRef)}
+      scrollToProjects={() => scrollToSection(projectsSectionRef)}
+      scrollToSkills={() => scrollToSection(skillsSectionRef)}
+      scrollToContact={() => scrollToSection(contactSectionRef)}
+      />
       <main>
-        <Profile />
-        <div></div>
-        <div></div>
+        <HeroSection />
+        <AboutSection ref={aboutSectionRef} />
+        <ProjectsSection ref={projectsSectionRef} />
+        <SkillsSection ref={skillsSectionRef} />
+        <ContactSection ref={contactSectionRef} />
       </main>
       <DevProgress />
     </>

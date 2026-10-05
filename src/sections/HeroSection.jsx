@@ -1,7 +1,7 @@
 import React from 'react'
-import Links from '../components/about/Links'
+import Links from '../components/hero/Links'
 
-const Profile = () => {
+const HeroSection = () => {
   return (
     <div className="w-full bg-portfolio-obsidian border border-portfolio-plum/30 p-8 sm:p-12 shadow-2xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 text-white relative overflow-hidden">
   
@@ -22,6 +22,7 @@ const Profile = () => {
     <p className="text-lg text-gray-300 font-medium">
       Front-End Developer <span className="text-portfolio-plum">|</span> Fresh Software Engineering Graduate
     </p>
+    <p></p>
 
   </div>
 
@@ -36,4 +37,4 @@ const Profile = () => {
   )
 }
 
-export default Profile
+export default HeroSection
