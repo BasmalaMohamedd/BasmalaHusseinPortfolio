@@ -13,7 +13,7 @@ const HeroSection = () => {
     
     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-portfolio-plum/20 border border-portfolio-plum/40 text-xs font-medium text-portfolio-plum-light w-fit">
       <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-      Available for Opportunities
+      Open for work
     </div>
     <h1 className="text-4xl font-bold tracking-tight">
       Basmala Mohamed Hussein
