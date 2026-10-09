@@ -28,7 +28,7 @@ const Links = () => {
                 <LinkItem
                     icon={<FaDownload />}
                     label="Resume"
-                    href="src/cv/BasmalaHussein-resume.pdf"
+                    href="public/BasmalaHussein-resume.pdf"
                     download
                 />
             </li>
