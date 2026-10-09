@@ -13,6 +13,7 @@ const Links = () => {
                     icon={<FaGithub />}
                     label=" GitHub "
                     href="https://github.com/BasmalaMohamedd"
+                    download={null}
                 />
             </li>
             <li className='flex-1'>
@@ -20,13 +21,14 @@ const Links = () => {
                     icon={<FaLinkedin />}
                     label="LinkedIn"
                     href="https://www.linkedin.com/in/basmala-hussein-95120421a"
+                    download={null}
                 />
             </li>
             <li className='flex-1'>
                 <LinkItem
                     icon={<FaDownload />}
                     label="Resume"
-                    href="/path/to/resume.pdf"
+                    href="src/cv/BasmalaHussein-resume.pdf"
                     download
                 />
             </li>
