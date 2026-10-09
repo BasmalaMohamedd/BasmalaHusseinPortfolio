@@ -3,7 +3,7 @@ import Links from '../components/hero/Links'
 
 const HeroSection = () => {
   return (
-    <div className="w-full bg-portfolio-obsidian border border-portfolio-plum/30 p-8 sm:p-12 shadow-2xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 text-white relative overflow-hidden">
+    <div className="w-full bg-portfolio-obsidian border border-portfolio-plum/30 p-8 sm:p-12 shadow-2xl flex flex-col sm:flex-row  items-center justify-between gap-8 text-white ">
   
   <div className=" bg-portfolio-plum/20 rounded-full blur-3xl " />
 
@@ -15,14 +15,16 @@ const HeroSection = () => {
       <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
       Available for Opportunities
     </div>
-    <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+    <h1 className="text-4xl font-bold tracking-tight">
       Basmala Mohamed Hussein
     </h1>
     
     <p className="text-lg text-gray-300 font-medium">
       Front-End Developer <span className="text-portfolio-plum">|</span> Fresh Software Engineering Graduate
     </p>
-    <p></p>
+    <p className='text-lg text-gray-400 font-medium'>
+          I am a passionate Front-End Developer with a strong foundation in software engineering. I have a keen interest in creating visually appealing and user-friendly web applications.
+        </p>
 
   </div>
 
