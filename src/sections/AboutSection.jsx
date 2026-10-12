@@ -2,20 +2,21 @@ import React from 'react'
 import { MdCode, MdOutlineLayers, MdSettings } from "react-icons/md";
 
 const skillsData = [
-  {
-    icon: <MdCode className="text-3xl text-portfolio-plum" />,
-    title: "Frontend Development",
-    description: "2 years of experience in frontend development, building responsive and user-friendly web applications using modern technologies like React and angular. developing multilangual websites and ltr to rtl websites. integrating APIs and working with state management libraries like Redux."
-  },
-  {
-    icon: <MdOutlineLayers className="text-3xl text-portfolio-plum" />,
-    title: "Fullstack Development",
-    description: ""
-  },
+  
   {
     icon: <MdSettings className="text-3xl text-portfolio-plum" />,
     title: "Software Engineering",
-    description: ""
+    description: "Strong foundation in software engineering principles, SDLC, Agile methodologies, UML, design patterns, system architecture, and distributed systems. Experienced in code quality and security testing using SonarQube and Semgrep, alongside workflow tools like Jira, with foundational knowledge in AI and cybersecurity."
+  },
+  {
+    icon: <MdCode className="text-3xl text-portfolio-plum" />,
+    title: "Frontend Development",
+    description: "2 years of experience building responsive, user-friendly web applications using React and Angular. Developed multilingual and RTL/LTR layout integration, robust API consumption, and advanced state management with Redux."
+  },
+  {
+    icon: <MdOutlineLayers className="text-3xl text-portfolio-plum" />,
+    title: "Full-Stack Development",
+    description: "Experienced in developing end-to-end web solutions. Built scalable backend services using Node.js and Spring Boot, with practical experience in both SQL and NoSQL database management."
   }
 ];
 
