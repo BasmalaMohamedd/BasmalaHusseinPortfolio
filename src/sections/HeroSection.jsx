@@ -1,5 +1,7 @@
 import React from 'react'
 import Links from '../components/hero/Links'
+import { MdLocationOn } from "react-icons/md";
+
 
 const HeroSection = () => {
   return (
@@ -13,7 +15,8 @@ const HeroSection = () => {
     
     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-portfolio-plum/20 border border-portfolio-plum/40 text-xs font-medium text-portfolio-plum-light w-fit">
       <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-      Open for work
+      <span>Open for work</span>
+      
     </div>
     <h1 className="text-4xl font-bold tracking-tight">
       Basmala Mohamed Hussein
@@ -22,7 +25,10 @@ const HeroSection = () => {
     <p className="text-lg text-gray-300 font-medium">
       Front-End Developer <span className="text-portfolio-plum">|</span> Fresh Software Engineering Graduate
     </p>
-    <p className='text-lg text-gray-400 font-medium'>
+    <p className='text-gray-300 font-medium flex flex-row justify-start items-center gap-1'>
+      <MdLocationOn size={20}/> <span>Egypt - Cairo</span> 
+    </p>
+    <p className='text-gray-400 font-medium'>
           I am a passionate Front-End Developer with a strong foundation in software engineering. I have a keen interest in creating visually appealing and user-friendly web applications.
         </p>
 

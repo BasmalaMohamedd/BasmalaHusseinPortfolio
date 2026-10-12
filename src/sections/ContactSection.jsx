@@ -1,10 +1,11 @@
 import React from 'react'
+import SectionLayout from '../components/ui/SectionLayout'
 
 const ContactSection = ({ref}) => {
   return (
-      <h1 ref={ref} className='text-4xl font-bold text-center mt-8'>
-        Contact Section
-      </h1>
+      <SectionLayout ref={ref} header={"Contact Me"}>
+        
+      </SectionLayout>
   )
 }
 

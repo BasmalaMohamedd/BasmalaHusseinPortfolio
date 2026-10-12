@@ -8,15 +8,17 @@ import ProjectsSection from './sections/ProjectsSection'
 import SkillsSection from './sections/SkillsSection'
 import ContactSection from './sections/ContactSection'
 
+function scrollToSection(sectionRef){
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  
 function App() {
   const aboutSectionRef = useRef();
   const projectsSectionRef = useRef();
   const skillsSectionRef = useRef();
   const contactSectionRef = useRef();
 
-  function scrollToSection(sectionRef){
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
-  }
+  
 
   return (
     <>
@@ -33,7 +35,7 @@ function App() {
         <SkillsSection ref={skillsSectionRef} />
         <ContactSection ref={contactSectionRef} />
       </main>
-      <DevProgress />
+      {/* <DevProgress /> */}
     </>
   )
 }
